@@ -1,0 +1,81 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [ "Hi", "How are you", "Hello", "Good day" ],
+          "responses": [ "Hello, thanks for coming", "Good to see you again", "Hi there, how can I help?" ],
+          "context_set": ""
+      },
+      {
+          "tag": "greeting",
+          "patterns": [  "Is anyone there?", "are you there?" ],
+          "responses": [ "Yes, how can I help?", "Yes, I am here, how can I help?", "Hi there, I am here to help" ],
+          "context_set": ""
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [ "Bye", "See you later", "Goodbye" ],
+          "responses": [ "See you later", "Have a nice day", "Bye! Come back again soon." ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [ "Thanks", "Thank you", "That's helpful" ],
+          "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+      },
+      {
+          "tag": "horrors",
+          "patterns": [ "What horror movies can you suggest?", "Give me some horror movies", "tell me some horror genre movies", "Can you recommend some horror films?",
+          
+          "What are some good horror movies to watch?",
+          "Can you list some horror genre films for me?"
+          ],
+          "responses": [ "The Exorcist (1973), Halloween (1978), Alien (1979), Psycho (1960), The Texas Chain Saw Massacre (1974), The Shining (1980), Jaws (1975), The Silence of the Lambs (1991), Rosemary's Baby (1968), A Nightmare on Elm Street (1984), The Conjuring (2013), It (2017)" ]
+      },
+      {
+          "tag": "horror",
+          "patterns": [ "What horror movie can you suggest?", "Give me one horror movie", "tell me one horror genre movie", "Can you recommend one horror film?",
+          "I'm in the mood for a action movie, what do you suggest?",
+          
+          
+          "I want to watch a action movie, what are my options?"],
+          "responses": [ "The Exorcist (1973)" ]
+      },
+      {
+          "tag": "action",
+          "patterns": [ "What action movies can you suggest?", "Give me some action movies", "tell me some action genre movies", "Can you recommend some action films?",
+          
+          "What are some good action movies to watch?",
+          "Can you list some action genre films for me?"
+          ],
+          "responses": [ "The Matrix (1999) ,Die Hard (1988) ,John Wick (2014) ,Terminator 2: Judgment Day (1991) ,The Bourne Identity (2002) ,Inception (2010) ,The Dark Knight (2008) ,The Raid: Redemption (2011) ,Mad Max: Fury Road (2015) ,The Terminator (1984)" ]
+      },
+      {
+          "tag": "actions",
+          "patterns": [ "What action movie can you suggest?", "Give me one action movie", "tell me one action genre movie", "Can you recommend one action film?",
+          "I'm in the mood for a action movie, what do you suggest?",
+          
+          
+          "I want to watch a action movie, what are my options?"],
+          "responses": [ "The Matrix (1999)" ]
+      },
+      {
+          "tag": "comedy",
+          "patterns": [ "What comedy movies can you suggest?", "Give me some comedy movies", "tell me some comedy genre movies", "Can you recommend some comedy films?",
+          
+          "What are some good comedy movies to watch?",
+          "Can you list some comedy genre films for me?"
+          ],
+          "responses": [ "Eurovision Song Contest: The Story of Fire Saga (2020) ,The Lovebirds (2020) ,Spenser Confidential (2020) ,Sonic the Hedgehog (2020) ,Like a Boss (2020) ,The King of Staten Island (2020) ,The Half of It (2020) ,The Trip to Greece (2020) ,Military Wives (2020) ,Trolls World Tour (2020)" ]
+      },
+      {
+          "tag": "comedys",
+          "patterns": [ "What comedy movie can you suggest?", "Give me one comedy movie", "tell me one comedy genre movie", "Can you recommend one comedy film?",
+          "I'm in the mood for a comedy movie, what do you suggest?",
+          
+          
+          "I want to watch a comedy movie, what are my options?"],
+          "responses": [ "The Lovebirds (2020)" ]
+      }
+      
+  ]
+}
